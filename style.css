@@ -12,7 +12,6 @@ header {
 
 main {
   width: 960px;
-  height: 300px;
   margin: 50px auto;
   display: flex;
   justify-content: center;
@@ -67,3 +66,13 @@ footer {
   background-color: #aaaaaa;
 }
 
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+
+  .box {
+    margin: 10px auto;
+  }
